@@ -1,0 +1,43 @@
+{
+  "name": "proye-n",
+  "version": "1.0.0",
+  "description": "proyecto cinta negra",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint \"**/*.js\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngelRBL/b45-backend.git"
+  },
+  "keywords": [
+    "Devf",
+    "express",
+    "mongoose"
+  ],
+  "author": "Angel Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelRBL/b45-backend/issues"
+  },
+  "homepage": "https://github.com/AngelRBL/b45-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "celebrate": "^13.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.4"
+  }
+}
